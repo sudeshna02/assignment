@@ -1,6 +1,6 @@
 section{
 
-	background-color: blue;
+	background-color: #F8F8FF;
 	margin-top: 2%;
 	margin-right: 8%;
 	margin-left: 8%;
@@ -11,33 +11,55 @@ section{
 
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-gap: 2%;
+	grid-gap: 3%;
 	padding: 70%;
 	margin: 0 auto;
 	border : 2px;
 	padding-right: 2px;
 	padding-top: 10px;
 	padding-left: 2px;
+	height: 600px;
+	margin-right: 20px;
+	margin-left: 20px;
 
 }
 
-.purpose{
- 
- 	display: grid;
+.fordiv{
+
+	width: 850px;
+}
+
+.picture{
+   
+  
 	grid-template-columns: auto auto;
-	grid-gap: 2%;
+
+	  
+   
+    width: 850px;
+    height: 425px;
+	display: block;
+	margin-left: 30px;
+
 	
-	
-	padding-right: 2px;
-	padding-top: 10px;
-	   margin-right: 1px;
-    margin-left: 20px;
-    width: 1000px;
+	overflow: hidden;
+	background-image: url(picture1f.png);
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 10px 10px black;
+
+
 }
+
 
 .photos {
 
 	height : 60px;
 	width: 200px;
 	
+}
+
+.text {
+	height: 300px;
+	width: 250px;
 }
