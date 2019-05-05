@@ -1,0 +1,43 @@
+section{
+
+	background-color: blue;
+	margin-top: 2%;
+	margin-right: 8%;
+	margin-left: 8%;
+}
+
+
+.grid {
+
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 2%;
+	padding: 70%;
+	margin: 0 auto;
+	border : 2px;
+	padding-right: 2px;
+	padding-top: 10px;
+	padding-left: 2px;
+
+}
+
+.purpose{
+ 
+ 	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 2%;
+	
+	
+	padding-right: 2px;
+	padding-top: 10px;
+	   margin-right: 1px;
+    margin-left: 20px;
+    width: 1000px;
+}
+
+.photos {
+
+	height : 60px;
+	width: 200px;
+	
+}
