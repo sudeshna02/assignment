@@ -4,23 +4,27 @@ section {
 	height: 2000px;
 }
 
+iframe{
 
+	height : 175px;
+	width : 225px;
+}
 
 
 
 .videogrid{
 
 	display: grid;
-	width: 350px;
-	grid-row-gap: 10px;
-	margin-left: 12%;
+	width: 225px;
+	grid-row-gap: 35px;
+	
 }
 
 
 .videocontent{
 
 	display: grid;
-	width: 800px;
+	width: 300px;
 
 
 }
@@ -29,7 +33,7 @@ section {
 
 
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto auto;
 	grid-gap: 3%;
 	padding: 70%;
 	
@@ -38,8 +42,9 @@ section {
 	padding-top: 10px;
 	padding-left: 2px;
 	height: 600px;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-top: 15px;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 150px;
 
 }
+
