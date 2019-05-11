@@ -11,3 +11,70 @@ section {
 
 	text-align: center;
 }
+
+.reviews {
+	display : grid;
+	grid-column-gap: 30px;
+	grid-template-columns: auto auto auto;
+	
+	
+	}
+
+
+.reviews> div {
+
+	margin-top: 20%;
+	background-color: GhostWhite ; 
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	height:300px;
+	border-radius: 20px;
+	
+	width: 300px;
+	
+
+	
+
+}
+
+
+
+
+.reviews :hover{
+ 	box-shadow: 10px 10px 5px grey;
+ }
+
+ .review1{
+
+ 	
+   margin-left: 12%;
+  
+
+}
+
+a{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.reviewP{
+
+	margin-top: 20px;
+}
+
+
+ 
+
+
+ .review3{
+
+ 	margin-right: 10%;
+ }
+
+ .review2{
+
+ 	margin-left: 5%;
+ 	margin-left: 5%;
+ }

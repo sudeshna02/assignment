@@ -1,10 +1,12 @@
 
-table {
+.table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80%;
-  margin-left: 10%;
+  width: 900px;
+  margin-left: 200px;
   margin-right: 10%;
+  margin-top: 50px;
+
 
 }
 
@@ -22,8 +24,53 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 12px;
+
+
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.gtitle{
+
+  margin-left:  ;
+  margin-right: ;
+  margin-top: ;
+}
+
+.videogrid{
+
+  display: grid;
+  width: 225px;
+  grid-row-gap: 35px;
+  
+}
+
+
+.videocontent{
+
+  display: grid;
+  width: 300px;
+
+
+}
+
+.grid {
+
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3%;
+  padding: 70%;
+  
+  border : 2px;
+  padding-right: 2px;
+  padding-top: 0px;
+  padding-left: 2px;
+  height: 600px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 150px;
+
 }

@@ -1,7 +1,8 @@
 section {
 
 	background-color: #F8F8FF;
-	height: 2000px;
+	height: 1300px;
+	margin-bottom: 30px;
 }
 
 iframe{
@@ -16,15 +17,30 @@ iframe{
 
 	display: grid;
 	width: 225px;
-	grid-row-gap: 35px;
+	
 	
 }
 
+ section h1{
 
-.videocontent{
+	font-weight: 100;
+}
 
-	display: grid;
-	width: 300px;
+.title3{
+
+
+	
+	font-size : 60px;
+	
+	
+			margin-top: 15px;
+			margin-bottom: 0px;
+
+	    height: 40px;
+	   
+	   text-align: center;
+padding: 5px;
+
 
 
 }
@@ -34,17 +50,53 @@ iframe{
 
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-gap: 3%;
+	grid-gap: 5%;
 	padding: 70%;
 	
 	border : 2px;
 	padding-right: 2px;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-left: 2px;
-	height: 600px;
+	height: 400px;
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-top: 150px;
+	margin-top: 50px;
 
 }
 
+.footer{
+
+	margin-top: 40px;
+	height: 50px;
+
+}
+
+@media screen and (max-width:600px){
+
+	 section{
+width: auto;
+display: flex;
+flex-direction: column;
+height: 4450px;
+}
+
+iframe {
+
+	height : 175px;
+	width : 225px;
+}
+
+.grid{
+
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+nav ul{
+
+	padding-left: 0px;
+}
+
+}

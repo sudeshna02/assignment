@@ -1,11 +1,22 @@
+section {
+
+	height: 850px;
+}
+
+.picture{
+
+margin-left: 30px;
+}
+
+
 .grid {
 
 
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 3%;
-	padding: 70%;
 	
+	height: 700px;
 	border : 2px;
 	padding-right: 2px;
 	padding-top: 10px;
@@ -13,12 +24,71 @@
 	height: 600px;
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-top: 150px;
+	margin-top: 50px;
 
 }
 
+.picture2{
 
+	margin-left: 70px;
+}
+.jobsad {
+
+
+}
+
+.title3{
+
+
+	
+	font-size : 60px;
+	
+	
+			margin-top: 15px;
+			margin-bottom: 0px;
+
+	    height: 40px;
+	   
+	   text-align: center;
+padding: 5px;
+font-weight: 100 ;
+
+
+}
+
+.footer{
+
+	margin-top: 40px;
+	height: 50px;
+
+}
 input {
 
 	margin-left: 10%;
+}
+
+@media screen and (max-width:600px){
+
+	 section{
+width: auto;
+display: flex;
+flex-direction: column;
+height: 4450px;
+}
+
+
+
+.grid{
+
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+nav ul{
+
+	padding-left: 0px;
+}
+
 }
