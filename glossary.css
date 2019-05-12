@@ -1,76 +1,114 @@
 
-.table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 900px;
-  margin-left: 200px;
-  margin-right: 10%;
-  margin-top: 50px;
 
+/* For the section */
+section{
+
+  height: 950px;
+}
+
+/* for the title WEB DEVELOPMENT TERMS */
+.title3{
+ 
+  font-size : 60px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+
+  height: 40px;
+     
+  text-align: center;
+  padding: 5px;
 
 }
 
-.number {
-
-	width: 2%;
-}
-
-.meaning {
-
-	width: 70%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 12px;
-
-
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-.gtitle{
-
-  margin-left:  ;
-  margin-right: ;
-  margin-top: ;
-}
-
-.videogrid{
-
-  display: grid;
-  width: 225px;
-  grid-row-gap: 35px;
-  
-}
-
-
-.videocontent{
-
-  display: grid;
-  width: 300px;
-
-
-}
-
+/* css for the grid where terms the site is kept*/
 .grid {
 
 
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 3%;
-  padding: 70%;
+  grid-gap: 5%;
+  padding-bottom:840px;
   
   border : 2px;
   padding-right: 2px;
   padding-top: 0px;
   padding-left: 2px;
-  height: 600px;
+  height: 25px;
   margin-right: 5%;
   margin-left: 5%;
-  margin-top: 150px;
+  margin-top: 50px;
 
+}
+
+/* css for the grid where terms are kept*/
+.videogrid{
+
+  display: grid;
+  width: 225px;
+  
+  
+}
+
+/*TITLE DESIGN */
+
+ section h2{
+
+  font-weight: 100;
+}
+
+
+/*For the footer */
+
+.footer{
+
+  margin-top: 20px;
+  height: 25px;
+
+}
+
+/*To make the website responsive */
+
+@media screen and (max-width:600px){
+
+/*for the responsive section */
+   section{
+width: auto;
+display: flex;
+flex-direction: column;
+height: 2950px;
+}
+
+
+
+/*first grid  */
+.grid{
+
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 1950px;
+  margin-top: 110px;
+  margin-left: 10%;
+
+}
+
+/*For the navigation*/
+nav ul{
+
+  padding-left: 0px;
+}
+
+/* for the title WEB DEVELOPMENT TERMS */
+
+.title3{
+     font-size : 40px; 
+      margin-top: 15px;
+      margin-bottom: 0px;
+
+      height: 40px;
+     
+     text-align: center;
+      padding: 5px;
+
+}
 }

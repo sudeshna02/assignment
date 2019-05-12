@@ -1,3 +1,6 @@
+
+/* For the section */
+
 section {
 
 	background-color: #F8F8FF;
@@ -5,45 +8,29 @@ section {
 	margin-bottom: 30px;
 }
 
+/*For the videos */
 iframe{
 
 	height : 175px;
 	width : 225px;
 }
 
-
-
-.videogrid{
-
-	display: grid;
-	width: 225px;
-	
-	
-}
-
- section h1{
-
-	font-weight: 100;
-}
+/* for the title TURORIALS */
 
 .title3{
 
+	font-size : 60px;		
+	margin-top: 15px;
+	margin-bottom: 0px;
 
-	
-	font-size : 60px;
-	
-	
-			margin-top: 15px;
-			margin-bottom: 0px;
-
-	    height: 40px;
+	height: 40px;
 	   
-	   text-align: center;
-padding: 5px;
-
-
+	 text-align: center;
+	padding: 5px;
 
 }
+
+/* css for the grid where videos of the site is kept*/
 
 .grid {
 
@@ -64,6 +51,24 @@ padding: 5px;
 
 }
 
+/* css for the grid where videos are kept*/
+.videogrid{
+
+	display: grid;
+	width: 225px;
+	
+	
+}
+
+/*TITLE DESIGN */
+ section h2{
+
+	font-weight: 100;
+}
+
+
+
+/*For the footer */
 .footer{
 
 	margin-top: 40px;
@@ -71,8 +76,11 @@ padding: 5px;
 
 }
 
+/*To make the website responsive */
+
 @media screen and (max-width:600px){
 
+/*for the responsive section */
 	 section{
 width: auto;
 display: flex;
@@ -80,11 +88,16 @@ flex-direction: column;
 height: 4450px;
 }
 
+/*for the videos*/
+
 iframe {
 
 	height : 175px;
 	width : 225px;
 }
+
+
+/*first grid  */
 
 .grid{
 
@@ -93,6 +106,8 @@ iframe {
 	flex-direction: column;
 
 }
+
+/*For the navigation*/
 
 nav ul{
 

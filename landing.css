@@ -1,10 +1,12 @@
-
+/*For the section */
 section{
 
 	height: 1150px;
 	margin-top: 50px;
 }
 
+
+/* css for the grid where picture and propose of the site is kept*/
 .grid {
 
 
@@ -18,7 +20,7 @@ section{
 	padding-top: 10px;
 	padding-left: 2px;
 	height: 600px;
-	margin-right: 20px;
+	margin-right: 5px;
 	margin-left: 15px;
 	margin-top: 15px;
 	padding-bottom: 0px;
@@ -26,6 +28,8 @@ section{
 
 }
 
+/* Inside the grid the class "fordiv" is made*/
+/*Css for the class "fordiv"*/
 .fordiv{
 
 	width: 850px;
@@ -34,18 +38,19 @@ section{
 	font-size: 25px;
 }
 
+/* For the web development picture */
+
 .landing{
 
 	width: 850px;
 	margin-top: 10px;
 	border: 2px solid black;
 	border-radius: 20px;
-
-
-
  	box-shadow: 10px 10px 5px grey;
 
 }
+
+/*For the content */
 
 .photos {
 
@@ -55,8 +60,11 @@ section{
 	
 }
 
+
+/*Purpose of the website */
+
 .text {
-	height: 300px;
+	height: 10px;
 	width: 250px;
 	background-color: white;
 	text-align: center;
@@ -65,33 +73,7 @@ section{
 	font-weight: 100;
 }
 
-
-	
-
-
-.text2 {
-
-	width: 100%;
-	height: 100px;
-	font-size: 40px;
-	text-align: center;
-	margin-top: 25px;
-}
-
-.text3{
-
-	font-size: 30px;
-	font-weight: 100;
-	margin-top: 25px;
-}
-
-b{
-
-	padding-right: 50px;
-	padding-left: 50px;
-	font-size: 25px;
-	margin-top: 50px;
-}
+/*The second grid 1*/
 .developers {
 	display : grid;
 	grid-column-gap: 30px;
@@ -100,7 +82,7 @@ b{
 	
 	}
 
-
+	/*Inside the developer grid*/
 .developers> div {
 
 	
@@ -118,13 +100,39 @@ b{
 	}
 
 	
+/* For the content of the second grid */
 
+.text2 {
+
+	width: 100%;
+	height: 100px;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+/*For the name of the developers */
+
+
+.text3{
+
+	font-size: 30px;
+	font-weight: 100;
+	margin-top: 25px;
+}
+
+/*names */
+b{
+
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 25px;
+	margin-top: 50px;
 }
 
 
-
-
-
+/*developer class 1*/
+	
  .isaac1{
 
  	
@@ -135,22 +143,14 @@ b{
 }
 
 
-
-.reviewP{
-
-	margin-top: 30px;
-
-}
-
-
- 
-
-
+/*developers class 2*/
  .saral3{
 
  	margin-right: 10%;
  	margin-top: 10px;
  }
+
+ /*developers class 3*/
 
  .rima2{
 
@@ -159,6 +159,14 @@ b{
  	margin-top: 10px;
  }
 
+/* for the developers photos */
+.reviewP{
+
+	margin-top: 30px;
+
+}
+
+/*For the footer */
 .footer{
 
 	margin-top: 40px;
@@ -166,18 +174,18 @@ b{
 
 }
 
-
+/*For the second grid */
 .grid2{
 
 	margin-left: 5%;
 }
 
 
-
+/*To make the website responsive */
 
 @media screen and (max-width:600px){
 
-
+/*for the responsive section */
 	 section{
 	
 width: 425px; 
@@ -187,6 +195,8 @@ margin-left: 22px;
 margin-right: 25px; 
 height: 2250px;
 }
+
+/*for the responsive navigation */
 
 	nav{
 
@@ -201,6 +211,8 @@ height: 2250px;
 
 }
 
+/*Purpose of the website */
+
 .text{
  margin-left: 60px;
  margin-top: 30px;
@@ -208,9 +220,7 @@ height: 2250px;
 }
 	
 
-
-
-
+/*first grid  */
 
 .grid{
 
@@ -218,7 +228,7 @@ height: 2250px;
 	display: flex;
 	flex-direction: column;
 	grid-column-gap: 100px; 
-	margin-right: : 5px;
+
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 5px;
@@ -226,6 +236,7 @@ height: 2250px;
 	height: 1000px;
 }
 
+/* second grid */
 .developers{
 
 	
@@ -233,12 +244,16 @@ height: 2250px;
 	flex-direction: column;
 }
 
+/* For the web development picture */
 .landing{
 
 	width: 350px;
-	padding left: 1px; 
+	/*padding left: 1px; */
 	padding-right: 5px;
  }
+
+/* Inside the grid the class "fordiv" is made*/
+/*Css for the class "fordiv"*/
 
 .fordiv{
  width: 100%;
@@ -246,6 +261,8 @@ height: 2250px;
 	margin-top: 5px;
 	font-size: 25px;
 }
+
+/* For the content of the second grid */
 
 .text2{
 
